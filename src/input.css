@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Overpass', sans-serif;
+}
+
+.area{
+    max-width: 400px;
+    width: 90%;
+    height: 400px;
+
+}
+
+.message{
+    font-size: 15px;
+}
+
+.clickClass{
+    background-color: rgb(232, 232, 232);
+}

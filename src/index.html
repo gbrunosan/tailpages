@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating Site</title>
+    <link href="CSS/input.css" rel="stylesheet">
+    <script src="../script/script.js"></script>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:wght@200;300;600&display=swap" rel="stylesheet">
+</head>
+<body class="flex justify-center items-center h-screen bg-[#111316]">
+
+
+<div class="area flex flex-col justify-center bg-[#252D36] p-6 rounded-2xl">
+  <div class=" icon w-12 h-12 bg-gray-700 rounded-full flex justify-center items-center">
+    <img src="../images/icon-star.svg">
+  </div>
+
+  <div class="my-6">
+    <p class="text-white mb-2 text-2xl font-bold" >How did we do?</p>
+    <span class="message text-[#959EAB]">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</span>
+  </div>
+
+  <div id="rates" class="flex flex-row justify-around text-lg text-gray-400 h-12">
+    <input id="" type="button" onclick="clicar('1')" value="1" class="bg-gray-700 w-12 rounded-full cursor-pointer hover:bg-[#FB7312] hover:text-white">
+    <input id="" type="button" onclick="clicar('2')" value="2" class="bg-gray-700 w-12 rounded-full cursor-pointer hover:bg-[#FB7312] hover:text-white">
+    <input id="" type="button" onclick="clicar('3')" value="3" class="bg-gray-700 w-12 rounded-full cursor-pointer hover:bg-[#FB7312] hover:text-white">
+    <input id="" type="button" onclick="clicar('4')" value="4" class="bg-gray-700 w-12 rounded-full cursor-pointer hover:bg-[#FB7312] hover:text-white">
+    <input id="" type="button" onclick="clicar('5')" value="5" class="bg-gray-700 w-12 rounded-full cursor-pointer hover:bg-[#FB7312] hover:text-white">
+  </div>
+
+  <div class="flex justify-center items-center mt-8">
+  <input id="handleSubmit" type="button" onclick="handleSubmit()" value="S U B M I T" class="bg-[#FB7312] w-full h-10 text-white rounded-2xl font-bold hover:bg-white hover:text-[#FB7312] cursor-pointer">
+  </div>
+  
+</div>
+  
+
+</body>
+</html>
