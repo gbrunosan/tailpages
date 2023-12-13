@@ -27,7 +27,7 @@ function handleSubmit() {
         console.log("não foi clicado");
         return;
     }
-    window.location.href = `thanks-page.html`;
+    window.location.href = `fthanks-page.html`;
 }
 
 document.addEventListener("DOMContentLoaded", function() {
